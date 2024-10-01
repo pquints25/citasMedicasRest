@@ -12,7 +12,7 @@ class Server{
         }
 
         listen(){
-            this._app.listen(this._app, () => {
+            this._app.listen(this._port, () => {
                 console.log(`escuchando en el puerto ${this._port}`);
                 
             });
